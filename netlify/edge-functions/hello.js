@@ -1,1 +1,3 @@
-export default () => new Response("Hello world");
+export default () => {
+    return new Response("Hello world");
+};
